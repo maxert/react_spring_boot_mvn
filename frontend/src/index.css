@@ -1,0 +1,157 @@
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.intsruction{
+  margin-bottom: 40px;
+}
+.form_grid .MuiButton-containedPrimary{
+  grid-column: 2;
+}
+a{
+  text-decoration: none;
+}
+.header a{
+  text-decoration: none;
+}
+#__react-alert__{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.icon_deleter{
+  position: absolute;
+  right:30px;
+  top: 30px;
+  cursor: pointer;
+}
+#__react-alert__>div *{
+  width: max-content!important;
+  max-width: 600px;
+}
+.grid_items>div>div{
+  margin-right: 5px;
+  font-weight: 600;
+}
+.grid_items>div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid_items{
+  grid-gap: 20px;
+  display: grid;
+}
+.Modal_update_items .MuiDialog-paperWidthSm {
+  max-width: 600px;
+  padding: 21px;
+}
+.Items_update{
+  position: relative;
+}
+.Button_update{
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.Modal_update{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.MuiToolbar-root img{
+
+    max-width: 100px;
+
+}
+.MuiContainer-root{
+  margin-top: 20px;
+}
+.makeStyles-paper-1{
+  margin-top: 0px!important;
+}
+.footer_list img{
+  max-width: 150px;
+}
+.footer_list h6{
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+.footer_list{
+
+  display: flex;
+}
+.text_footer h2{
+  margin: 0px;
+  margin-bottom: 30px;
+}
+.text_footer{
+  margin-left: 20px;
+
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.text_title{
+  margin-bottom: auto;
+}
+.loading_server{
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid_column .makeStyles-card-8{
+  height: 100%;
+}
+.grid_column{
+  display: grid!important;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.add_items:hover{
+  background: rgba(0,0,0,0.4);
+}
+.add_items svg{
+font-size: 100px;
+}
+.MuiDialog-paperWidthSm{
+  width: 100%;
+}
+.MuiButton-textPrimary{
+  grid-column: 2;
+}
+.MuiDialogActions-root{
+  justify-content: flex-start!important;
+}
+.add_items{
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+justify-content: center;
+
+  background: rgba(0,0,0,0.2);
+  color: white;
+  font-size: 100px;
+  border-radius: 30px;
+}
+.form_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
